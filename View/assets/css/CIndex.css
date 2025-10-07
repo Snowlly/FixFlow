@@ -1,0 +1,129 @@
+.Deconnection {
+    color: darkred;
+}
+
+.FormGC {
+    margin-top: 10vh;
+    font-family: Avenir;
+}
+
+.FormGC fieldset {
+    width: 20vw;
+    margin-left: 10vw;
+}
+
+.FormGC fieldset:first-child {
+    margin-left: 20vw;
+}
+
+.FormGC fieldset div {
+    margin: 1vw;
+}
+
+.divFieldSet {
+    margin-top: 5vh;
+}
+
+.FormGC fieldset select {
+    border: 1px solid cornflowerblue;
+    background-color: white;
+}
+
+.div1, .div3 {
+    margin-left: 5vw;
+}
+
+.div3 {
+    margin-top: 5vh;
+}
+
+.divParent {
+    margin-top: 5vh;
+}
+
+.div1 input, .div3 input {
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid #a4c4f1;
+}
+
+.div2, .div4 {
+    margin-left: 10vw;
+}
+
+.div2 input {
+    height: 5vh;
+    width: 25vw;
+    border: 2px solid #a4c4f1;
+}
+
+
+.div4 textarea {
+    height: 15vh;
+    width: 40vw;
+    border: 2px solid #a4c4f1;
+}
+
+
+.FormGC input:read-write, .div4 textarea:read-write {
+    padding-left: 1vw;
+    color: black;
+    font-family: Avenir;
+    font-size: 1rem;
+}
+
+.FormGC button {
+    margin-left: 80vw;
+    padding: 1vw;
+    background-color: cornflowerblue;
+    color: black;
+    font-family: Avenir;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.labelElevee {
+    color: darkred;
+}
+
+.labelAttendre {
+    color: darkorange;
+}
+
+.labelSemainePro {
+    color: darkgreen;
+}
+
+.labelCloture {
+    color: darkseagreen;
+}
+
+
+/* MON COMPTE */
+
+.TextMonCompte {
+    margin-left: 5vw;
+    margin-top: 2vh;
+    font-family: Avenir;
+}
+
+.TextMonCompte span {
+    font-weight: normal;
+}
+
+.TextMonCompteStatus {
+    margin-top: 50%;
+    padding: 1vw;
+    text-align: center;
+    width: 35vw;
+    margin-left: 5vw;
+    font-family: Avenir;
+    background-color: #dcdcb7;
+}
+
+.TextMonCompteStatus span {
+    font-weight: normal;
+}

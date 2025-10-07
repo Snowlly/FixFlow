@@ -1,0 +1,76 @@
+table {
+    width: 90%;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: #c6d8f4;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+.pastilleNiveau {
+    padding: 0.5vw 0.2vw 0.5vw 0.2vw;
+    border-radius: 50px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #375e4f;
+}
+
+.BtnSupprimer {
+    margin-top: 1vh;
+    padding: 0.3vw;
+    background-color: white;
+    font-family: Avenir;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.BtnSupprimer img {
+    width: 2vw;
+    transition: 0.2s;
+}
+
+.BtnSupprimer img:hover {
+    background-color: #f34235;
+}
+
+.BtnModifier img {
+    width: 2vw;
+    transition: 0.2s;
+}
+
+.BtnModifier img:hover {
+    background-color: #24A1F4;
+}
+
+.BtnAttribuer img {
+    width: 2vw;
+    transition: 0.2s;
+}
+
+.BtnAttribuer img:hover {
+    background-color: #2D2D2D;
+}
+
+.BtnValider img {
+    width: 2vw;
+    transition: 0.2s;
+}
+
+.BtnValider img:hover {
+    background-color: #6DC151;
+}

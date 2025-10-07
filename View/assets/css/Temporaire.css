@@ -1,0 +1,9 @@
+.TextTemporaire {
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-family: Avenir;
+}
+
+.TextTemporaire span {
+    color: darkred;
+}

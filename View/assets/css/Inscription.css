@@ -1,0 +1,40 @@
+.TitleUser {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-family: Avenir;
+    color: cornflowerblue;
+}
+
+.FormInscription {
+    margin-top: 5vh;
+}
+
+.FormInscription label {
+    font-family: Avenir;
+    font-size: 1.2rem;
+}
+
+.FormInscription input {
+    height: 5vh;
+    width: 25vw;
+    border: 2px solid #a4c4f1;
+}
+
+.FormInscription input:read-write {
+    padding-left: 1vw;
+    color: black;
+    font-family: Avenir;
+    font-size: 1rem;
+}
+
+.FormInscription button {
+    padding: 1vw;
+    background-color: cornflowerblue;
+    color: black;
+    font-family: Avenir;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}

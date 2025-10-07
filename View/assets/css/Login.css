@@ -1,0 +1,32 @@
+.FormLogin {
+    margin-top: 5vh;
+}
+
+.FormLogin label {
+    font-family: Avenir;
+    font-size: 1.2rem;
+}
+
+.FormLogin input {
+    height: 5vh;
+    width: 25vw;
+    border: 2px solid #a4c4f1;
+}
+
+.FormLogin input:read-write {
+    padding-left: 1vw;
+    color: black;
+    font-family: Avenir;
+    font-size: 1rem;
+}
+
+.FormLogin button {
+    padding: 1vw;
+    background-color: cornflowerblue;
+    color: black;
+    font-family: Avenir;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}

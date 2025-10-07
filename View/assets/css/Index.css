@@ -1,0 +1,29 @@
+.TitleIndex {
+    margin-top: 20vh;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: Avenir;
+    font-size: 5rem;
+}
+
+.BtnLogin, .BtnInscription {
+    font-family: Avenir;
+    font-size: 1.3rem;
+    background-color: #c6d8f4;
+    padding: 1vw;
+    border-radius: 20px;
+    color: black;
+}
+
+.BtnLogin:hover, .BtnInscription:hover {
+    background-color: #a4c4f1;
+}
+
+.BtnLogin {
+    margin-left: 35vw;
+}
+
+.BtnInscription {
+    margin-left: 10vw;
+}
+

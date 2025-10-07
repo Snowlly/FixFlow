@@ -1,0 +1,36 @@
+.containerDCompte {
+    height: 88.7vh;
+    display: grid;
+    grid-template-columns: 49.5% 1% 49.5%;
+}
+
+.containerDCompte table {
+    margin-top: 10vh;
+}
+
+.BtnAccept, .BtnRefuse {
+    margin-left: 10%;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.formCompte {
+    display: flex;
+    flex-direction: row;
+}
+
+.spaceCompte {
+    width: 15vw;
+}
+
+.BtnAccept {
+    background-color: #b0efd7;
+}
+
+.BtnRefuse {
+    background-color: darkred;
+    color: aliceblue;
+}
